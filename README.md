@@ -37,7 +37,7 @@ This editor can implement local and group policies. It can be used for a network
 <br /> 
 
 - <b>Password Policies</b> <br />
-This ensures complex and strong passwords for user accounts. Placing certain rules maximizes security. Password complexity requirements have enabled with a minimum of 10 characters. This was accessed with the path: Security settings > Account Policies > Password policy
+This ensures complex and strong passwords for user accounts. Placing certain rules maximizes security. Password complexity requirements was enabled with a minimum of 10 characters. This was accessed with the path: Security settings > Account Policies > Password policy
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT4.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
