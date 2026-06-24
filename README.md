@@ -53,7 +53,7 @@ To protect the password from being guessed by an attacker, a lockout threshold i
 <br /> 
 
 - <b>Windows Defender Firewall</b> <br />
-Built-in application that protects computers from malicious attacks and blocks unauthorized traffic through inbound and outbound rules. This is accessible through the search bar by typing "Windows Defender" for auto-prompt selection. Path accessed: Advanced Settings > Windows Defender Firewall Properties. I can see that Domain, Private, and Public are all set to default including block inbound connections.
+Built-in application that protects computers from malicious attacks and blocks unauthorized traffic through inbound and outbound rules. This is accessible through the search bar by typing "Windows Defender" for auto-prompt selection. Path accessed: Advanced Settings > Windows Defender Firewall Properties. I can see that Domain, Private, and Public are all set to default including blocking inbound connections.
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT6.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
