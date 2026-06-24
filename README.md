@@ -1,33 +1,30 @@
-<h1>Home Lab - Managing Computers and Groups in Active Directory</h1>
+<h1>Home Lab - Managing With Microsoft Windows 10 Pro</h1>
 
 <h2>Description</h2>
-In this virtual machine I demonstrate computer and group management in Active Directory.  
+Here, I will employ various practices for general management of policies and configurations. This will demonstrate the core understanding of the Windows platform capability.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
-
-- <b>Windows 10</b> 
 
 <h2>Environments Used </h2>
 
-- <b>Windows Server 2019</b>
+- <b>Windows 10 Pro</b>
 
 <h2>Program walk-through:</h2>
 
 
-- <b>Organizing Groups and Creating OU's for Group Policies</b> <br />
-Two OU's, Workstations and Servers, have been created to place computers and servers in. In a professional work environment, it is optimal to segregate devices to set policies.
+- <b>User Account Control (UAC)</b> <br />
+This feature enhances access control ensuring applications execute in non-admistrator accounts. This follows the Principle of Least Privelege which helps mitigate potential malware impact. To access:  Control Panel -> User Accounts -> Change User Account Control Setting.
 <br />
 <p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT1.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-From the computer container, I will move them to the OU's created accordingly. <br />
+Four different setting can be chosen. Here, the Administrator will always be notified when changes are made and new software is installed. <br />
 <br />
 <p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG1.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT2.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
