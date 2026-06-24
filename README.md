@@ -21,27 +21,36 @@ This feature enhances access control ensuring applications execute in non-admist
 </p>
 <br /> 
 
-Four different setting can be chosen. Here, the Administrator will always be notified when changes are made and new software is installed. <br />
+Four different settings can be chosen. Here, the option chosen will allow the Administrator to always be notified when changes are made and new software is installed. <br />
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT2.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-- <b>Group Policy Management</b> <br />
-OU's has been organized in which policies can now be deployed using Group Policy Management individually. Group Policy Objects will allow seperate baselines for devices and users. As shown, there are three existing GPO's in my VM.
+- <b>Local Policy and Group Policies Editor</b> <br />
+This editor can implement local and group policies. It can be used for a network or workstations to limit executions of vulnerable extenstions, set password policies, and other administrative settings. This can be accessed through the search bar by typing in "local group."
 <br />
 <p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG2.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT3.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-The Default Domain Policy has been linked to tml.local domain. In the setting tab I can see that this Default Domain Policy only applies to Computer Configurations. <br />
+- <b>Password Policies</b> <br />
+This ensures complex and strong passwords for user accounts. Placing certain rules maximizes security. Password complexity requirements have enabled with a minimum of 10 characters. This was accessed with the path: Security settings > Account Policies > Password policy
 <br />
 <p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG3.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT4.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+- <b>Setting a Lockout Policy</b> <br />
+To protect the password from being guessed by an attacker, a lockout threshold is set for three attempts. This can be accessed by path:  Local Security Policy > Windows Settings > Account Policies > Account Lockout Policy  
+<br />
+<p align="center">
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT5.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+</p>
+<br /> 
 
 Basic configurations are discovered that apply to most domains including password and account lockout policies. <br />
 <br />
