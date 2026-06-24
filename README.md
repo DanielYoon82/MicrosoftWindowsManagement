@@ -68,66 +68,8 @@ Network devices such as routers, ehternet cards, WiFi adapters etc., enable data
 </p>
 <br /> 
 
-As a demonstration, a new policy has been set to use a minimum of 10 characters for passwords. The GPO Default Domain Policy was chosen to edit for all computers.   <br />
-<br />
-<p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG5.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-From there navigating to: Computer Configurations -> Policies -> Windows Setting -> Security Settings -> Account Policies -> Password Policy and changing the required policy value to 10.    <br />
-<br />
-<p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG6.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-- <b>Restricting Access to Control Panel</b> <br/>
-Here, I would like to restrict access to the Control Panel in exception to the IT Department. I created a new GPO named "Restrict Control Panel Access."  <br />
-<br />
-<p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG7.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-User Configuration -> Administrative Templates -> Control Panel -> was then accessed in the editor to enable the feature to restrict access.  <br />
-<br />
-<p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG8.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-In Group Policy Management, by dragging the GPO Restrict Control Panel Accesss to the departments other than IT, I successfully restricted access to the Control Panel.  <br />
-<br />
-<p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG9.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-- <b>Auto Lock Screen in GPO</b> <br />
-A new GPO was created named Auto Lock Screen. This will allow me to change policies from the root domain.
-<br />
-<p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG10.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
-</p>
-<br /> 
-
-In the editor I accessed Computer Configurations -> Policies -> Windows Setting -> Security Settings -> Local Policies -> Security Options. I see that Machine Inactivity Limit is Not Defined. Edit was performed and set to inactivity limit to 5 minutes (300 seconds)  <br />
-<br />
-<p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG11.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-The new GPO was dragged into the root tml.local for enabling completing the task.  <br />
-<br />
-<p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG12.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
 
 - <b>Summary</b> <br />
-Using Windows Active Directory with modeling a VM in creating OU's, creating group policies, changing password policy, managing restricted access, and configuring auto lock screen was displayed. Managing computers and group policies was broken down using a VM as a simulation.
+I demonstrated managing and configuring users, groups, password policies, firewall, and disabling network devices with Windows 10 Pro. Delegating controls on an administrative level was used in a real world simulation with VM.
 <br />
 <br />
