@@ -29,7 +29,7 @@ Four different settings can be chosen. Here, the option chosen will allow the Ad
 <br />
 
 - <b>Local Policy and Group Policies Editor</b> <br />
-This editor can implement local and group policies. It can be used for a network or workstations to limit executions of vulnerable extenstions, set password policies, and other administrative settings. This can be accessed through the search bar by typing in "local group."
+This editor can implement local and group policies. It can be used for a network or workstations to limit executions of vulnerable extensions, set password policies, and other administrative settings. This can be accessed through the search bar by typing in "local group."
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT3.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
