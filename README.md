@@ -1,4 +1,4 @@
-<h1>Home Lab - Managing With Microsoft Windows 10 Pro</h1>
+<h1>Home Lab - Managing With Microsoft Windows</h1>
 
 <h2>Description</h2>
 Here, I will employ various practices for general management of policies and configurations. This will demonstrate the core understanding of the Windows platform capability.
