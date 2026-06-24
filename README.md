@@ -60,12 +60,13 @@ Built-in application that protects computers from malicious attacks and blocks u
 </p>
 <br /> 
 
-Basic configurations are discovered that apply to most domains including password and account lockout policies. <br />
+- <b>Disable Unused Networking Devices</b> <br />
+Network devices such as routers, ehternet cards, WiFi adapters etc., enable data sharing between computers. If not being used by the owner, it should be disabled for security reasons. It accessed by path: Control panel > System and Security Setting > System > Device Manager
 <br />
 <p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG4.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT7.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
+<br /> 
 
 As a demonstration, a new policy has been set to use a minimum of 10 characters for passwords. The GPO Default Domain Policy was chosen to edit for all computers.   <br />
 <br />
