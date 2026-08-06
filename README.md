@@ -48,6 +48,10 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 - Opened Control Panel → User Accounts
 - Accessed Change User Account Control Settings
+
+<h3>Purpose </h3>
+
+- User Account Control helps enforce the Principle of Least Privilege by requiring administrator approval before system-level changes are made.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT1.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
@@ -68,6 +72,10 @@ This home lab demonstrates common Windows 10 administrative and security configu
 - Reviewed available administrative templates
 - Examined local computer and user configuration policies
 - Identified security-related policy settings used to manage workstation behavior
+
+<h3>Purpose </h3>
+
+- Local Group Policy allows administrators to centrally manage security and operating system behavior on standalone Windows systems.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT3.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
