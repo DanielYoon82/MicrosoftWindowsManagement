@@ -39,67 +39,124 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 <br />
 <p align="center">
-<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMTWorkflow.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMTWorkflow.jpg" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-- <b>User Account Control (UAC)</b> <br />
-This feature enhances access control ensuring applications execute in non-admistrator accounts. This follows the Principle of Least Privelege which helps mitigate potential malware impact. To access:  Control Panel -> User Accounts -> Change User Account Control Setting.
-<br />
+<h2>Step 1 – Configure User Account Control (UAC)</h2>
+
+<h3>Actions Performed </h3>
+
+- Opened Control Panel → User Accounts
+- Accessed Change User Account Control Settings
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT1.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-Four different settings can be chosen. Here, the option chosen will allow the Administrator to always be notified when changes are made and new software is installed. <br />
-<br />
+- Reviewed the available notification levels
+- Configured UAC to Always Notify
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT2.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-- <b>Local Policy and Group Policies Editor</b> <br />
-This editor can implement local and group policies. It can be used for a network or workstations to limit executions of vulnerable extensions, set password policies, and other administrative settings. This can be accessed through the search bar by typing in "local group."
-<br />
+<h2>Step 2 – Configure Local Group Policy (UAC)</h2>
+
+<h3>Actions Performed </h3>
+
+- Opened Local Group Policy Editor (gpedit.msc)
+- Reviewed available administrative templates
+- Examined local computer and user configuration policies
+- Identified security-related policy settings used to manage workstation behavior
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT3.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-- <b>Password Policies</b> <br />
-This ensures complex and strong passwords for user accounts. Placing certain rules maximizes security. Password complexity requirements was enabled with a minimum of 10 characters. This was accessed with the path: Security settings > Account Policies > Password policy
-<br />
+<h2>Step 3 – Configure Password Policy (UAC)</h2>
+
+<h3>Actions Performed </h3>
+
+- Opened Local Security Policy
+- Navigated to: Security Settings → Account Policies → Password Policy
+- Enabled password complexity requirements
+- Configured a minimum password length of 10 characters
+- Verified the updated password policy
+
+<h3>Purpose </h3>
+
+- Strong password policies help protect user accounts against brute-force and dictionary attacks.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT4.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-- <b>Setting a Lockout Policy</b> <br />
-To protect the password from being guessed by an attacker, a lockout threshold is set for three attempts. This can be accessed by path:  Local Security Policy > Windows Settings > Account Policies > Account Lockout Policy  
-<br />
+<h2>Step 3 – Configure Password Policy (UAC)</h2>
+
+<h3>Actions Performed </h3>
+
+- Navigated to: Security Settings → Account Policies → Account Lockout Policy
+- Configured an account lockout threshold of 3 failed logon attempts
+- Reviewed lockout duration settings
+- Verified the policy configuration
+
+<h3>Purpose </h3>
+
+- Account lockout policies reduce the effectiveness of password-guessing attacks by temporarily locking compromised accounts.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT5.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-- <b>Windows Defender Firewall</b> <br />
-Built-in application that protects computers from malicious attacks and blocks unauthorized traffic through inbound and outbound rules. This is accessible through the search bar by typing "Windows Defender" for auto-prompt selection. Path accessed: Advanced Settings > Windows Defender Firewall Properties. I can see that Domain, Private, and Public are all set to default including blocking inbound connections.
-<br />
+<h2>Step 3 – Configure Password Policy (UAC)</h2>
+
+<h3>Actions Performed </h3>
+
+- Opened Windows Defender Firewall with Advanced Security
+- Reviewed Domain, Private, and Public firewall profiles
+- Verified inbound and outbound firewall settings
+- Confirmed Windows Defender Firewall was enabled for all network profiles
+
+<h3>Purpose </h3>
+
+- Windows Defender Firewall helps prevent unauthorized network access while allowing approved applications and services to communicate securely.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT6.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-- <b>Disable Unused Networking Devices</b> <br />
-Network devices such as routers, ehternet cards, WiFi adapters etc., enable data sharing between computers. If not being used by the owner, it should be disabled for security reasons. It accessed by path: Control panel > System and Security Setting > System > Device Manager
-<br />
+<h2>Step 6 – Disable Unused Network Adapters (UAC)</h2>
+
+<h3>Actions Performed </h3>
+
+- Opened Device Manager
+- Reviewed installed network adapters
+- Identified unused networking devices
+- Disabled unnecessary adapters to reduce the system's attack surface
+
+<h3>Purpose </h3>
+
+- Disabling unused hardware reduces potential security risks and simplifies workstation management.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT7.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
 
-- <b>Summary</b> <br />
-I demonstrated managing and configuring users, groups, password policies, firewall, and disabling network devices with Windows 10 Pro. Delegating controls on an administrative level was used in a real world simulation with VM.
+<h3>Administrative Tasks Demonstrated </h3>
+
+- Windows workstation administration
+- User Account Control configuration
+- Local Group Policy management
+- Password policy administration
+- Account lockout configuration
+- Windows Defender Firewall management
+- Device Manager administration
+- Endpoint security hardening
+
+<h3>Key Takeaways </h3>
+
+This lab demonstrates practical Windows 10 administration and security hardening techniques commonly performed by Help Desk, Desktop Support, and Junior Systems Administrators. By configuring User Account Control, password policies, account lockout settings, Windows Defender Firewall, and Local Group Policy, administrators can improve workstation security, enforce organizational standards, and reduce the risk of unauthorized access.
 <br />
 <br />
