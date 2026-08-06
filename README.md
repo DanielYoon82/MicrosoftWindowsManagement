@@ -49,14 +49,14 @@ This home lab demonstrates common Windows 10 administrative and security configu
 - Opened Control Panel → User Accounts
 - Accessed Change User Account Control Settings
 <p align="center">
-<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT1.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT1.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
 - Reviewed the available notification levels
 - Configured UAC to Always Notify
 <p align="center">
-<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT2.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT2.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -69,7 +69,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 - Examined local computer and user configuration policies
 - Identified security-related policy settings used to manage workstation behavior
 <p align="center">
-<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT3.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT3.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
@@ -87,7 +87,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 - Strong password policies help protect user accounts against brute-force and dictionary attacks.
 <p align="center">
-<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT4.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT4.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -104,7 +104,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 - Account lockout policies reduce the effectiveness of password-guessing attacks by temporarily locking compromised accounts.
 <p align="center">
-<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT5.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT5.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
@@ -121,7 +121,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 - Windows Defender Firewall helps prevent unauthorized network access while allowing approved applications and services to communicate securely.
 <p align="center">
-<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT6.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT6.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
@@ -138,7 +138,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 - Disabling unused hardware reduces potential security risks and simplifies workstation management.
 <p align="center">
-<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT7.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT7.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
