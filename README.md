@@ -1,8 +1,28 @@
-<h1>Home Lab - Managing With Microsoft Windows</h1>
+<h1>Home Lab - Windows 10 Security & System Administration</h1>
 
-<h2>Description</h2>
-Here, I will employ various practices for general management of policies and configurations. This will demonstrate the core understanding of the Windows platform capability.
+<h3>Project Overview</h3>
+This home lab demonstrates common Windows 10 administrative and security configuration tasks performed by IT Support and Desktop Support professionals. The project focuses on securing Windows workstations through User Account Control (UAC), Local Group Policy, password and account lockout policies, Windows Defender Firewall configuration, and hardware management while following Windows security best practices. 
 <br />
+
+Windows 10 Pro Workstation
+            │
+            ▼
+  User Account Control (UAC)
+            │
+            ▼
+ Local Group Policy (gpedit.msc)
+            │
+            ├────────► Password Policy
+            │
+            ├────────► Account Lockout Policy
+            │
+            ├────────► Windows Defender Firewall
+            │
+            ▼
+    Device Manager
+            │
+            ▼
+ Secure & Hardened Windows 10 Endpoint
 
 
 
