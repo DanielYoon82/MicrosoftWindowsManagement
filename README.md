@@ -51,7 +51,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 <h3>Purpose </h3>
 
-- User Account Control helps enforce the Principle of Least Privilege by requiring administrator approval before system-level changes are made.
+User Account Control helps enforce the Principle of Least Privilege by requiring administrator approval before system-level changes are made.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT1.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
@@ -75,7 +75,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 <h3>Purpose </h3>
 
-- Local Group Policy allows administrators to centrally manage security and operating system behavior on standalone Windows systems.
+Local Group Policy allows administrators to centrally manage security and operating system behavior on standalone Windows systems.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT3.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
@@ -93,7 +93,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 <h3>Purpose </h3>
 
-- Strong password policies help protect user accounts against brute-force and dictionary attacks.
+Strong password policies help protect user accounts against brute-force and dictionary attacks.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT4.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
@@ -110,7 +110,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 <h3>Purpose </h3>
 
-- Account lockout policies reduce the effectiveness of password-guessing attacks by temporarily locking compromised accounts.
+Account lockout policies reduce the effectiveness of password-guessing attacks by temporarily locking compromised accounts.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT5.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
@@ -127,7 +127,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 <h3>Purpose </h3>
 
-- Windows Defender Firewall helps prevent unauthorized network access while allowing approved applications and services to communicate securely.
+Windows Defender Firewall helps prevent unauthorized network access while allowing approved applications and services to communicate securely.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT6.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
@@ -144,7 +144,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 
 <h3>Purpose </h3>
 
-- Disabling unused hardware reduces potential security risks and simplifies workstation management.
+Disabling unused hardware reduces potential security risks and simplifies workstation management.
 <p align="center">
 <img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMT7.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
