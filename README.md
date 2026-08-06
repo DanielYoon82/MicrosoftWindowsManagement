@@ -4,34 +4,44 @@
 This home lab demonstrates common Windows 10 administrative and security configuration tasks performed by IT Support and Desktop Support professionals. The project focuses on securing Windows workstations through User Account Control (UAC), Local Group Policy, password and account lockout policies, Windows Defender Firewall configuration, and hardware management while following Windows security best practices. 
 <br />
 
-Windows 10 Pro Workstation
-            │
-            ▼
-  User Account Control (UAC)
-            │
-            ▼
- Local Group Policy (gpedit.msc)
-            │
-            ├────────► Password Policy
-            │
-            ├────────► Account Lockout Policy
-            │
-            ├────────► Windows Defender Firewall
-            │
-            ▼
-    Device Manager
-            │
-            ▼
- Secure & Hardened Windows 10 Endpoint
+<h3>Objectives </h3>
 
+- Configure User Account Control (UAC)
+- Manage Local Group Policy settings
+- Implement password security policies
+- Configure account lockout policies
+- Review Windows Defender Firewall settings
+- Disable unused network adapters to improve security
+- Demonstrate Windows security hardening techniques
 
+<h3>Environment </h3>
 
-<h2>Environments Used </h2>
+- Windows 10 Pro
+- Local Group Policy Editor (gpedit.msc)
+- Local Security Policy
+- Windows Defender Firewall
+- Device Manager
 
-- <b>Windows 10 Pro</b>
+<h3>Skills Demonstrated </h3>
 
-<h2>Program walk-through:</h2>
+- Windows 10 Administration
+- Security Hardening
+- User Account Control (UAC)
+- Local Group Policy
+- Password Policy Configuration
+- Account Lockout Policy
+- Windows Defender Firewall
+- Endpoint Security
+- Device Management
+- Principle of Least Privilege
+</p>  
+<br />
 
+<br />
+<p align="center">
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMTWorkflow.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
+</p>
+<br /> 
 
 - <b>User Account Control (UAC)</b> <br />
 This feature enhances access control ensuring applications execute in non-admistrator accounts. This follows the Principle of Least Privelege which helps mitigate potential malware impact. To access:  Control Panel -> User Accounts -> Change User Account Control Setting.
