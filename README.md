@@ -38,7 +38,7 @@ This home lab demonstrates common Windows 10 administrative and security configu
 <br />
 
 <br />
-<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMTWorkflow.jpg" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/MicrosoftWindowsManagement/blob/main/images/Windows10MGMTWorkflow.jpg" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
