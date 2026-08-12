@@ -99,7 +99,7 @@ Strong password policies help protect user accounts against brute-force and dict
 </p>
 <br />
 
-<h2>Step 3 – Configure Password Policy (UAC)</h2>
+<h2>Step 4 – Configure Account Lockout Policy</h2>
 
 <h3>Actions Performed </h3>
 
@@ -116,7 +116,7 @@ Account lockout policies reduce the effectiveness of password-guessing attacks b
 </p>
 <br /> 
 
-<h2>Step 3 – Configure Password Policy (UAC)</h2>
+<h2>Step 5 – Review Windows Defender Firewall (UAC)</h2>
 
 <h3>Actions Performed </h3>
 
